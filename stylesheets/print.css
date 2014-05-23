@@ -13,3 +13,11 @@ section,
 @page {
     margin: 0;
 }
+
+section .printComment {
+    display: block;
+    margin-top: 6em;
+    color: #E0E0E0;
+    font-style: italic;
+    text-align: center;
+}

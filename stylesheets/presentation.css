@@ -10,6 +10,7 @@ body {
 }
 
 section {
+    position: relative;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +116,7 @@ section .publicComment,
 section .privateComment {
     display: block;
     text-align: center;
-    color: #5F5A60;
+    color: #E1C964;
 }
 section .publicComment::before {
     content: '/* ';
@@ -125,4 +126,7 @@ section .publicComment::after {
 }
 section .privateComment::before {
     content: '// ';
+}
+section .printComment {
+    display: none;
 }
